@@ -1,0 +1,110 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    max-width: 1000px;
+    margin:4rem auto;
+    padding: 0.5rem;
+}
+
+.content-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 span
+{
+    color: royalblue;
+}
+h3
+{
+    color: #333333bd;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+}
+.company
+{
+    background: aqua;
+    color:#333;
+    padding:0.4rem 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+.buttons
+{
+    flex-basis: 20%;
+    text-align: center;
+}
+.buttons button
+{
+    display: block;
+    margin: auto;
+    padding:0.6rem 1rem;
+    background-color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333333;
+}
+.buttons button
+{
+    display: block;
+    margin: auto;
+    padding:0.6rem 1rem;
+    background-color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333333;
+    border: none;
+    border-left: 4px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttons button.active
+{
+    border-left: 4px solid royalblue;
+}
+
+.buttons button:hover
+{
+    color:black;
+    border-left-color: rgba(65, 105, 225, 0.397);
+}
+.content
+{
+   flex-basis: 70%;
+}
+
+.date
+{
+    color: royalblue;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.duty
+{
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.duty span
+{
+    margin-right: 1rem;
+    color: royalblue;
+}
+.duty p
+{
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.932)
+}
