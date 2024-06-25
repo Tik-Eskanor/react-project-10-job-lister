@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tik-Eskanor/react-project-10-job-lister/static/css/main.15f464c6.css",
+    "main.js": "/Tik-Eskanor/react-project-10-job-lister/static/js/main.45eb73d6.js",
+    "index.html": "/Tik-Eskanor/react-project-10-job-lister/index.html",
+    "main.15f464c6.css.map": "/Tik-Eskanor/react-project-10-job-lister/static/css/main.15f464c6.css.map",
+    "main.45eb73d6.js.map": "/Tik-Eskanor/react-project-10-job-lister/static/js/main.45eb73d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f464c6.css",
+    "static/js/main.45eb73d6.js"
+  ]
+}
